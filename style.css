@@ -1,0 +1,127 @@
+body{
+    background-color: #fbe7ce;
+    font-family: Helvetica;
+    margin: 0;
+}
+li{
+    font-size: 30px;
+}
+/* atributos header */
+header{
+    display: flex;
+    min-height: 50px;
+    background-color: #97D077;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    text-align: left;
+    font-size: 30px;
+}
+nav a{
+    text-decoration: none;
+    font-weight: 600;
+    padding-right: 10px;
+    
+}
+nav a:hover{
+    color:white
+}
+/* atributos hoja de vida */
+.flexbox-container{
+    display: flex;
+    padding: 15px;
+    flex-direction: row;
+    border-style: none;
+}
+
+/* atributos mensaje*/
+.formulario{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    padding: 50px 55px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    text-align: center;
+    width: 340px;
+    background-color: #97D077;
+}
+.form.txt{
+    display: flex;
+    justify-content: space-between;
+}
+.form-txt a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+.form-txt a:hover{
+    color:white;
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+}
+input , textarea{
+    background-color: white;
+    padding: 20px 14px;
+    margin-bottom: 25px;
+    border: 0;
+    border-radius: 10px;
+    font-size: 15px;
+    color: black;
+}
+::placeholder{
+    color: gray;
+    font-size: 15px;
+}
+:focus{
+    outline: 2px solid green;
+}
+.btn{
+    background-color: white;
+    color: black;
+    font-size: 17px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #cf9fff;
+}
+/* estilos contacto */
+.centrar{
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor{
+    padding: 50px 55px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    text-align: center;
+    width: 340px;
+    background-color: #97D077;
+}
+.titulo{
+    text-align: center;
+    font-size: 80px;
+}
+h2{
+    color: black;
+    font-size: 30px;
+}
+h3{
+    color: black;
+    font-size: 20px;
+}
+h3 a{
+    text-decoration: none;
+    color: black;
+}
+h3 a:hover{
+    color: white;
+}
